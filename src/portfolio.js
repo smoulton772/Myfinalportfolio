@@ -7,21 +7,21 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Sean Moulton",
+  title: "Hi all, I'm Sean",
   subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1MFog036jCTh1zcJLJxrvMk15HUgOBxUm/view?usp=sharing"
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
+  github: "https://github.com/smoulton772",
+  linkedin: "https://www.linkedin.com/in/sean-moulton-73a2733a/",
+  gmail: "hello@seanmoulton.com",
+  //gitlab: "https://gitlab.com/saadpasta",
+  //facebook: "https://www.facebook.com/saad.pasta7"
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -64,10 +64,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
+    /*{
       skillName: "swift",
       fontAwesomeClassname: "fab fa-swift"
-    },
+    },*/
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -84,10 +84,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
-    {
+    /*{
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
+    },*/
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
@@ -154,8 +154,8 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
+  githubUserName: "smoulton772", // Change to your github username to view your profile in Contact Section.
+  showGithubProfile :"false" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
 
@@ -266,8 +266,8 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+561 320 8356‬",
+  email_address: "hello@seanmoulton.com"
 };
 
 //Twitter Section
