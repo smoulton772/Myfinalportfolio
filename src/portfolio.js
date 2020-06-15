@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Sean Moulton",
   title: "Hi all, I'm Sean",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
+  subTitle: emoji("A passionate Software Developer 🚀 with experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
   resumeLink: "https://drive.google.com/file/d/1MFog036jCTh1zcJLJxrvMk15HUgOBxUm/view?usp=sharing"
 };
 
@@ -85,7 +85,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-fire"
     },
     /*{
-      skillName: "python",
+      skillName: "JAMstack",
       fontAwesomeClassname: "fab fa-python"
     },*/
     {
@@ -100,8 +100,13 @@ https://fontawesome.com/icons?d=gallery */
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
+    
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
+      Stack: "MERN Stack",  //Insert stack or technology you have experience in
+      progressPercentage: "90%"  //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "JAMstack",  //Insert stack or technology you have experience in
       progressPercentage: "90%"  //Insert relative proficiency in percentage
     },
     {
@@ -161,20 +166,20 @@ const openSource = {
 
 // Some Big Projects You have worked with your company
 
-const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
-    {
-      image: "https://drive.google.com/uc?id=1exWn9T6j8TsfDDHJnS3VR66eP6RiGAfY",
-      link: "http://saayahealth.com/"
-    },
-    {
-      image: "https://drive.google.com/uc?id=1MXoXcQRK-pH8J82wyjCW4SJk5AxJe7tf",
-      link: "http://nextu.se/"
-    }
-  ]
-};
+// const bigProjects = {
+//   title: "Big Projects",
+//   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+//   projects: [
+//     {
+//       image: "https://drive.google.com/uc?id=1exWn9T6j8TsfDDHJnS3VR66eP6RiGAfY",
+//       link: "http://saayahealth.com/"
+//     },
+//     {
+//       image: "https://drive.google.com/uc?id=1MXoXcQRK-pH8J82wyjCW4SJk5AxJe7tf",
+//       link: "http://nextu.se/"
+//     }
+//   ]
+// };
 
 // Your Achievement Section Include Your Certification Talks and More
 
@@ -216,52 +221,52 @@ const achievementSection = {
 
 // Blogs Section
 
-const blogSection = {
+// const blogSection = {
 
-  title: "Blogs",
-  subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+//   title: "Blogs",
+//   subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
 
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ]
-};
+//   blogs: [
+//     {
+//       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+//       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+//       description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+//     },
+//     {
+//       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+//       title: "Why REACT is The Best?",
+//       description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+//     }
+//   ]
+// };
 
 // Talks Sections
 
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
+// const talkSection = {
+//   title: "TALKS",
+//   subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
 
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/",
-      image:
-        "https://scontent.fkhi6-1.fna.fbcdn.net/v/t1.0-9/76714032_1730516240415559_1293494289556307968_o.jpg?_nc_cat=103&_nc_ohc=s5f81rdZd6wAQmqUa52YQBA21MjVOy7e-HN9jI7MspRDC-v5ahEouyInQ&_nc_ht=scontent.fkhi6-1.fna&oh=c29141a9a0de7ff2011a8191f5475a78&oe=5E83127C"
-    }
-  ]
-};
+//   talks: [
+//     {
+//       title: "Build Actions For Google Assistant",
+//       subtitle: "Codelab at GDG DevFest Karachi 2019",
+//       slides_url: "https://bit.ly/saadpasta-slides",
+//       event_url: "https://www.facebook.com/events/2339906106275053/",
+//       image:
+//         "https://scontent.fkhi6-1.fna.fbcdn.net/v/t1.0-9/76714032_1730516240415559_1293494289556307968_o.jpg?_nc_cat=103&_nc_ohc=s5f81rdZd6wAQmqUa52YQBA21MjVOy7e-HN9jI7MspRDC-v5ahEouyInQ&_nc_ht=scontent.fkhi6-1.fna&oh=c29141a9a0de7ff2011a8191f5475a78&oe=5E83127C"
+//     }
+//   ]
+// };
 
 // Podcast Section
 
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+// const podcastSection = {
+//   title: emoji("Podcast 🎙️"),
+//   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
-  // Please Provide with Your Podcast embeded Link
-  podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
-};
+//   // Please Provide with Your Podcast embeded Link
+//   podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
+// };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
@@ -272,9 +277,9 @@ const contactInfo = {
 
 //Twitter Section
 
-const twitterDetails = {
+// const twitterDetails = {
 
-  userName : "twitter"//Replace "twitter" with your twitter username without @
+//   userName : "twitter"//Replace "twitter" with your twitter username without @
   
-};
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+// };
+export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences,achievementSection,openSource, /*bigProjects* blogSection, talkSection, podcastSection,twitterDetails*/ contactInfo };
