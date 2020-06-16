@@ -166,20 +166,20 @@ const openSource = {
 
 // Some Big Projects You have worked with your company
 
-// const bigProjects = {
-//   title: "Big Projects",
-//   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-//   projects: [
-//     {
-//       image: "https://drive.google.com/uc?id=1exWn9T6j8TsfDDHJnS3VR66eP6RiGAfY",
-//       link: "http://saayahealth.com/"
-//     },
-//     {
-//       image: "https://drive.google.com/uc?id=1MXoXcQRK-pH8J82wyjCW4SJk5AxJe7tf",
-//       link: "http://nextu.se/"
-//     }
-//   ]
-// };
+const bigProjects = {
+  title: "Big Projects",
+  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  projects: [
+    {
+      image: "https://drive.google.com/uc?id=1exWn9T6j8TsfDDHJnS3VR66eP6RiGAfY",
+      link: "http://saayahealth.com/"
+    },
+    {
+      image: "https://drive.google.com/uc?id=1MXoXcQRK-pH8J82wyjCW4SJk5AxJe7tf",
+      link: "http://nextu.se/"
+    }
+  ]
+};
 
 // Your Achievement Section Include Your Certification Talks and More
 
@@ -282,4 +282,4 @@ const contactInfo = {
 //   userName : "twitter"//Replace "twitter" with your twitter username without @
   
 // };
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences,achievementSection,openSource, /*bigProjects* blogSection, talkSection, podcastSection,twitterDetails*/ contactInfo };
+export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences,achievementSection,openSource, bigProjects,/* blogSection, talkSection, podcastSection,twitterDetails*/ contactInfo };
