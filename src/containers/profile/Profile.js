@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from "react";
 import GithubProfileCard from "../../components/githubProfileCard/GithubProfileCard";
 import axios from "axios";
@@ -18,6 +19,7 @@ export default function Profile() {
   }
   useEffect(() => {
     getProfileData();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   if (openSource.showGithubProfile === "true"){
     return ( <GithubProfileCard prof={prof} key={prof.id} /> );
