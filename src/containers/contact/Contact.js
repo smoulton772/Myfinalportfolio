@@ -25,6 +25,7 @@ export default function Contact() {
                 <div className="contact-image-div">
                     <img alt="Sean Moulton" src={require("../../assets/images/contactMail.png")}></img>
                 </div>
+                
             </div>
         </div>
         </Fade>
