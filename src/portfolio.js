@@ -28,12 +28,12 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I do",
+  subTitle: "I AM FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Integration of third party services such as Firebase/ AWS / Netlify")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -92,10 +92,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
-    /*{
-      skillName: "JAMstack",
-      fontAwesomeClassname: "fab fa-python"
-    },*/
+    {
+      skillName: "yarn",
+      fontAwesomeClassname: "fab fa-yarn"
+    },
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
@@ -239,8 +239,8 @@ const achievementSection = {
       subtitle: "JAMStack: The Complete Guide",
       image: "https://upload.wikimedia.org/wikipedia/commons/9/93/UdemyLogo.svg",
       footerLink: [
-        { name: "Certification", url: ""},
-        { name: "Final Project", url: ""}
+        { name: "Certification", url: ""}
+        
       ]
     },
   ]
