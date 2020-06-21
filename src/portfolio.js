@@ -220,17 +220,29 @@ const achievementSection = {
       title: "NuCamp Coding Bootcamp",
       subtitle: "Front-End Web & Mobile Development Bootcamp: React-Native",
       image: "http://losangelesbootcamps.com/wp-content/uploads/2019/10/nucamp.png",
-      footerLink: [{ name: "Certification", url: "https://drive.google.com/file/d/1HatAATD_xq5SBNpT5dpt1M7IPtQLPRHx/view?usp=sharing" }]
+      footerLink: [
+        { name: "Certification", url: "https://drive.google.com/file/d/1HatAATD_xq5SBNpT5dpt1M7IPtQLPRHx/view?usp=sharing"},
+        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/"}
+      ]
     },
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu93Bd6LDbxPEOXr-hfLqLYzmHny8c0MJoI3exQP-lwpFLRT7g&s",
+      title: "NuCamp Coding Bootcamp",
+      subtitle: "Full Stack Web & Mobile Development: Node,Express, Mongodb, and No-Sql",
+      image: "http://losangelesbootcamps.com/wp-content/uploads/2019/10/nucamp.png",
       footerLink: [
         { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+        { name: "Final Project", url: "" }
       ]
-    }
+    },
+    {
+      title: "Udemy",
+      subtitle: "JAMStack: The Complete Guide",
+      image: "https://upload.wikimedia.org/wikipedia/commons/9/93/UdemyLogo.svg",
+      footerLink: [
+        { name: "Certification", url: ""},
+        { name: "Final Project", url: ""}
+      ]
+    },
   ]
 };
 
