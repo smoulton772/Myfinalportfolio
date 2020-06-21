@@ -2,7 +2,7 @@
 /* Change this file to get your personal Portfolio */
 
 // Your Summary And Greeting Section
-
+// import img from './assets/images/NuCamplogo.png'
 import emoji from "react-easy-emoji";
 
 const greeting = {
@@ -61,6 +61,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
+      skillName: "react-native",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
@@ -72,8 +76,12 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
+    // {
+    //   skillName: "sql-database",
+    //   fontAwesomeClassname: "fas fa-database"
+    // },
     {
-      skillName: "sql-database",
+      skillName: "No-SQL-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
@@ -103,20 +111,20 @@ const techStack = {
     
     {
       Stack: "MERN Stack",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      progressPercentage: "100%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "JAMstack",  //Insert stack or technology you have experience in
+      Stack: "Jamstack",  //Insert stack or technology you have experience in
       progressPercentage: "90%"  //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
       progressPercentage: "70%"
     },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
+    // {
+    //   Stack: "Programming",
+    //   progressPercentage: "60%"
+    // }
   ]
 };
 
@@ -171,7 +179,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: "https://drive.google.com/uc?id=1exWn9T6j8TsfDDHJnS3VR66eP6RiGAfY",
+      Image: "https://drive.google.com/uc?id=1exWn9T6j8TsfDDHJnS3VR66eP6RiGAfY",
       link: "http://saayahealth.com/"
     },
     {
@@ -185,28 +193,35 @@ const bigProjects = {
 
 const achievementSection = {
 
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("Education And Certifications 🏆🎓 "),
+  subtitle: "Education, Certifications, and Some Cool Stuff that I have done !",
 
   achivementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image:
-        "https://drive.google.com/file/d/15O3vIdPuUkYoolmli-JRDlozQB7e_IqI/view?usp=sharing",
-      footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
-      ]
+      title: "Keiser University",
+      subtitle: "Associate Science in Information Technology",
+      image: "https://upload.wikimedia.org/wikipedia/en/f/fb/Keiser_University_seal.svg ",
+      footerLink: [{ name: "Website", url: "https://www.keiseruniversity.edu/port-st-lucie/" }]
+    },
+  
+    {
+      title: "NuCamp Coding Bootcamp",
+      subtitle: "Front-End Web UI Frameworks: Bootstrap 4",
+      image: "http://losangelesbootcamps.com/wp-content/uploads/2019/10/nucamp.png",
+      footerLink: [{ name: "Certification", url: "https://drive.google.com/file/d/1Rtqig1RaOjcc6cK3GLOP-8Yx_T1-NUe4/view?usp=sharing" }]
     },
     {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Google_Assistant_logo.svg/1200px-Google_Assistant_logo.svg.png",
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
+      title: "NuCamp Coding Bootcamp",
+      subtitle: "Front-End Web Development: React",
+      image: "http://losangelesbootcamps.com/wp-content/uploads/2019/10/nucamp.png",
+      footerLink: [{ name: "Certification", url: "https://drive.google.com/file/d/1CSUknABNkqbIu4DWTC7WQuvfZ246hGmz/view?usp=sharing" }]
     },
-
+    {
+      title: "NuCamp Coding Bootcamp",
+      subtitle: "Front-End Web & Mobile Development Bootcamp: React-Native",
+      image: "http://losangelesbootcamps.com/wp-content/uploads/2019/10/nucamp.png",
+      footerLink: [{ name: "Certification", url: "https://drive.google.com/file/d/1HatAATD_xq5SBNpT5dpt1M7IPtQLPRHx/view?usp=sharing" }]
+    },
     {
       title: "PWA Web App Developer",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
