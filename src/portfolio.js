@@ -298,7 +298,7 @@ const achievementSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+561 320 8356‬",
+  number: "561320 8356‬",
   email_address: "hello@seanmoulton.com"
 };
 
