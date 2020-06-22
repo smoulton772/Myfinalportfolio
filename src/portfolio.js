@@ -68,10 +68,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    /*{
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },*/
+    // {
+    //   skillName: "hugo",
+    //   fontAwesomeClassname: "fas fa-hugo"
+    // },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -193,7 +193,7 @@ const bigProjects = {
 
 const achievementSection = {
 
-  title: emoji("Education And Certifications 🏆🎓 "),
+  title: emoji("Education & Certifications 🏆🎓 "),
   subtitle: "Education, Certifications, and Some Cool Stuff that I have done !",
 
   achivementsCards: [
