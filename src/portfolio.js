@@ -1,5 +1,4 @@
-﻿
-/* Change this file to get your personal Portfolio */
+﻿/* Change this file to get your personal Portfolio */
 
 // Your Summary And Greeting Section
 // import img from './assets/images/NuCamplogo.png'
@@ -9,14 +8,16 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Sean Moulton",
   title: "Hi all, I'm Sean",
-  subTitle: emoji("A passionate Software Developer 🚀 with experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1MFog036jCTh1zcJLJxrvMk15HUgOBxUm/view?usp=sharing"
+  subTitle: emoji(
+    "A passionate Software Developer 🚀 with experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+  ),
+  resumeLink:
+    "https://drive.google.com/file/d/1MFog036jCTh1zcJLJxrvMk15HUgOBxUm/view?usp=sharing",
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
-
   github: "https://github.com/smoulton772",
   linkedin: "https://www.linkedin.com/in/sean-moulton-73a2733a/",
   gmail: "hello@seanmoulton.com",
@@ -31,42 +32,46 @@ const skillsSection = {
   title: "What I do",
   subTitle: "I AM FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Netlify")
+    emoji(
+      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+    ),
+    emoji("⚡ Web & Mobile Applications using MERN Stack"),
+    emoji(
+      "⚡ Integration of third party services such as Firebase/ AWS / Netlify"
+    ),
   ],
 
-/* Make Sure You include correct Font Awesome Classname to view your icon
+  /* Make Sure You include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
       skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      fontAwesomeClassname: "fab fa-html5",
     },
     {
       skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      fontAwesomeClassname: "fab fa-css3-alt",
     },
     {
       skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      fontAwesomeClassname: "fab fa-sass",
     },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "fab fa-js",
     },
     {
       skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      fontAwesomeClassname: "fab fa-react",
     },
     {
       skillName: "react-native",
-      fontAwesomeClassname: "fab fa-react"
+      fontAwesomeClassname: "fab fa-react",
     },
     {
       skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      fontAwesomeClassname: "fab fa-node",
     },
     // {
     //   skillName: "hugo",
@@ -74,7 +79,7 @@ https://fontawesome.com/icons?d=gallery */
     // },
     {
       skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      fontAwesomeClassname: "fab fa-npm",
     },
     // {
     //   skillName: "sql-database",
@@ -82,25 +87,25 @@ https://fontawesome.com/icons?d=gallery */
     // },
     {
       skillName: "No-SQL-database",
-      fontAwesomeClassname: "fas fa-database"
+      fontAwesomeClassname: "fas fa-database",
     },
     {
       skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      fontAwesomeClassname: "fab fa-aws",
     },
     {
       skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      fontAwesomeClassname: "fas fa-fire",
     },
     {
       skillName: "yarn",
-      fontAwesomeClassname: "fab fa-yarn"
+      fontAwesomeClassname: "fab fa-yarn",
     },
     {
       skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ]
+      fontAwesomeClassname: "fab fa-docker",
+    },
+  ],
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -108,26 +113,24 @@ https://fontawesome.com/icons?d=gallery */
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
-    
     {
-      Stack: "MERN Stack",  //Insert stack or technology you have experience in
-      progressPercentage: "100%"  //Insert relative proficiency in percentage
+      Stack: "MERN Stack", //Insert stack or technology you have experience in
+      progressPercentage: "100%", //Insert relative proficiency in percentage
     },
     {
-      Stack: "Jamstack",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      Stack: "Jamstack", //Insert stack or technology you have experience in
+      progressPercentage: "90%", //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "70%",
     },
     // {
     //   Stack: "Programming",
     //   progressPercentage: "60%"
     // }
-  ]
+  ],
 };
-
 
 // Your top 3 work experiences
 
@@ -135,31 +138,34 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",  
+      role: "Software Engineer",
       company: "Facebook",
       companylogo: require("./assets/images/facebookLogo.png"),
       date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      ],
     },
     {
-      role: "Front-End Developer",   
+      role: "Front-End Developer",
       company: "Quora",
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
-      role: "Software Engineer Intern",  
+      role: "Software Engineer Intern",
       company: "Airbnb",
       companylogo: require("./assets/images/airbnbLogo.jpg"),
       date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
-  ]
+  ],
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -168,9 +174,8 @@ To know how to get github key look at readme.md */
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "smoulton772", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"false" // Set true or false to show Contact profile using Github, defaults to false 
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to false
 };
-
 
 // Some Big Projects You have worked with your company
 
@@ -180,19 +185,18 @@ const bigProjects = {
   projects: [
     {
       Image: "https://drive.google.com/uc?id=1exWn9T6j8TsfDDHJnS3VR66eP6RiGAfY",
-      link: "http://saayahealth.com/"
+      link: "http://saayahealth.com/",
     },
     {
       image: "https://drive.google.com/uc?id=1MXoXcQRK-pH8J82wyjCW4SJk5AxJe7tf",
-      link: "http://nextu.se/"
-    }
-  ]
+      link: "http://nextu.se/",
+    },
+  ],
 };
 
 // Your Achievement Section Include Your Certification Talks and More
 
 const achievementSection = {
-
   title: emoji("Education & Certifications 🏆🎓 "),
   subtitle: "Education, Certifications, and Some Cool Stuff that I have done !",
 
@@ -200,50 +204,86 @@ const achievementSection = {
     {
       title: "Keiser University",
       subtitle: "Associate Science in Information Technology",
-      image: "https://upload.wikimedia.org/wikipedia/en/f/fb/Keiser_University_seal.svg ",
-      footerLink: [{ name: "Website", url: "https://www.keiseruniversity.edu/port-st-lucie/" }]
+      image:
+        "https://upload.wikimedia.org/wikipedia/en/f/fb/Keiser_University_seal.svg ",
+      footerLink: [
+        {
+          name: "Website",
+          url: "https://www.keiseruniversity.edu/port-st-lucie/",
+        },
+      ],
     },
-  
+
     {
       title: "NuCamp Coding Bootcamp",
       subtitle: "Front-End Web UI Frameworks: Bootstrap 4",
-      image: "http://losangelesbootcamps.com/wp-content/uploads/2019/10/nucamp.png",
-      footerLink: [{ name: "Certification", url: "https://drive.google.com/file/d/1Rtqig1RaOjcc6cK3GLOP-8Yx_T1-NUe4/view?usp=sharing" }]
+      image:
+        "http://losangelesbootcamps.com/wp-content/uploads/2019/10/nucamp.png",
+      footerLink: [
+        {
+          name: "Certification",
+          url:
+            "https://drive.google.com/file/d/1Rtqig1RaOjcc6cK3GLOP-8Yx_T1-NUe4/view?usp=sharing",
+        },
+      ],
     },
     {
       title: "NuCamp Coding Bootcamp",
       subtitle: "Front-End Web Development: React",
-      image: "http://losangelesbootcamps.com/wp-content/uploads/2019/10/nucamp.png",
-      footerLink: [{ name: "Certification", url: "https://drive.google.com/file/d/1CSUknABNkqbIu4DWTC7WQuvfZ246hGmz/view?usp=sharing" }]
+      image:
+        "http://losangelesbootcamps.com/wp-content/uploads/2019/10/nucamp.png",
+      footerLink: [
+        {
+          name: "Certification",
+          url:
+            "https://drive.google.com/file/d/1CSUknABNkqbIu4DWTC7WQuvfZ246hGmz/view?usp=sharing",
+        },
+      ],
     },
     {
       title: "NuCamp Coding Bootcamp",
-      subtitle: "Front-End Web & Mobile Development Bootcamp: React-Native",
-      image: "http://losangelesbootcamps.com/wp-content/uploads/2019/10/nucamp.png",
+      subtitle: "Front-End Web & Mobile Development: React-Native",
+      image:
+        "http://losangelesbootcamps.com/wp-content/uploads/2019/10/nucamp.png",
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/1HatAATD_xq5SBNpT5dpt1M7IPtQLPRHx/view?usp=sharing"},
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/"}
-      ]
+        {
+          name: "Certification",
+          url:
+            "https://drive.google.com/file/d/1HatAATD_xq5SBNpT5dpt1M7IPtQLPRHx/view?usp=sharing",
+        },
+        // {
+        //   name: "Final Project",
+        //   // url: "",
+        // },
+      ],
     },
     {
       title: "NuCamp Coding Bootcamp",
-      subtitle: "Full Stack Web & Mobile Development: Node,Express, Mongodb, and No-Sql",
-      image: "http://losangelesbootcamps.com/wp-content/uploads/2019/10/nucamp.png",
+      subtitle:
+        "Full Stack Web & Mobile Development:MongoDb, Express, Mongoose",
+      image:
+        "http://losangelesbootcamps.com/wp-content/uploads/2019/10/nucamp.png",
       footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "" }
-      ]
+        { name: "Certification", url: "https://drive.google.com/file/d/11aEuKJujXTHsrUXDk7PDrYJMGJAu8Q4w/view?usp=sharing" },
+        // { name: "Final Project", url: "" },
+      ],
     },
-    {
-      title: "Udemy",
-      subtitle: "JAMStack: The Complete Guide",
-      image: "https://upload.wikimedia.org/wikipedia/commons/9/93/UdemyLogo.svg",
-      footerLink: [
-        { name: "Certification", url: ""}
-        
-      ]
-    },
-  ]
+    // {
+    //   title: "Udemy",
+    //   subtitle: "JAMStack: The Complete Guide",
+    //   image: "https://upload.wikimedia.org/wikipedia/commons/9/93/UdemyLogo.svg",
+    //   footerLink: [
+    //     { name: "Certification", url: ""}
+
+    //   ]
+    // },
+    // {
+    //   title: "LinkedIn Learning from Lynda.com",
+    //   subtitle: " Building Severless Apps with JAMStack and Eleventy", 
+    //   image: "https://upload.wikimedia.org/wikipedia/commons/c/c9/Linkedin.svg",
+    //   footerLink: [{ name: "Certification", url: "" }],
+    // },
+  ],
 };
 
 // Blogs Section
@@ -297,9 +337,10 @@ const achievementSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
+  subtitle:
+    "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "561 320 8356‬",
-  email_address: "hello@seanmoulton.com"
+  email_address: "hello@seanmoulton.com",
 };
 
 //Twitter Section
@@ -307,6 +348,16 @@ const contactInfo = {
 // const twitterDetails = {
 
 //   userName : "twitter"//Replace "twitter" with your twitter username without @
-  
+
 // };
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences,achievementSection,openSource, bigProjects,/* blogSection, talkSection, podcastSection,twitterDetails*/ contactInfo };
+export {
+  greeting,
+  socialMediaLinks,
+  skillsSection,
+  techStack,
+  workExperiences,
+  achievementSection,
+  openSource,
+  bigProjects,
+  /* blogSection, talkSection, podcastSection,twitterDetails*/ contactInfo,
+};
